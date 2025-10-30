@@ -1,53 +1,33 @@
-function Habilidades() {
-  const habilidadesHard = [
-    { nombre: "SolidWorks - Modelado 3D", nivel: 95 },
-    { nombre: "Impresión 3D (FDM/SLA)", nivel: 90 },
-    { nombre: "Diseño Paramétrico", nivel: 88 },
-    { nombre: "Cálculo Diferencial e Integral", nivel: 85 },
-    { nombre: "Cura / Slicing", nivel: 85 },
-    { nombre: "Álgebra Lineal", nivel: 82 },
-    { nombre: "AutoCAD 2D/3D", nivel: 80 },
-    { nombre: "Ensamblajes Mecánicos", nivel: 85 },
-    { nombre: "Dibujo Técnico", nivel: 90 },
-    { nombre: "Manufactura Aditiva", nivel: 88 },
-    { nombre: "Trigonometría y Geometría", nivel: 88 },
-    { nombre: "Ecuaciones Diferenciales", nivel: 78 }
-  ];
+import { useLanguage } from '../contexts/LanguageContext';
 
-  const habilidadesSoft = [
-    "Atención al detalle",
-    "Resolución de problemas",
-    "Pensamiento espacial",
-    "Creatividad e innovación",
-    "Aprendizaje autónomo",
-    "Trabajo en equipo",
-    "Gestión del tiempo",
-    "Adaptabilidad"
-  ];
+function Habilidades() {
+  const { t } = useLanguage();
+  const habilidadesHard = t('skills.hardSkills') || [];
+  const habilidadesSoft = t('skills.softSkills') || [];
 
   return (
     <section className="py-20 px-8 bg-dark-card min-h-screen">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent animate-fade-in">
-          Habilidades
+          {t('skills.title')}
         </h2>
         <div className="w-20 h-1 bg-gradient-to-r from-accent-primary to-accent-secondary mx-auto mb-12 animate-scale-in"></div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Habilidades Técnicas */}
           <div className="animate-slide-in-left">
-            <h3 className="text-3xl font-bold mb-8 text-accent-glow">Habilidades Técnicas</h3>
+            <h3 className="text-3xl font-bold mb-8 text-accent-glow">{t('skills.technical')}</h3>
             <div className="flex flex-col gap-6">
               {habilidadesHard.map((skill, index) => (
                 <div key={index} className="animate-fade-in" style={{animationDelay: `${index * 0.06}s`}}>
                   <div className="flex justify-between mb-2">
-                    <span className="font-semibold text-gray-200">{skill.nombre}</span>
-                    <span className="text-accent-primary text-sm font-semibold">{skill.nivel}%</span>
+                    <span className="font-semibold text-gray-200">{skill.name}</span>
+                    <span className="text-accent-primary text-sm font-semibold">{skill.level}%</span>
                   </div>
                   <div className="w-full h-3 bg-dark-bg rounded-full overflow-hidden border border-dark-border">
                     <div
                       className="h-full bg-gradient-to-r from-accent-primary to-accent-secondary rounded-full transition-all duration-1000 shadow-lg shadow-accent-primary/50"
-                      style={{ width: `${skill.nivel}%` }}
+                      style={{ width: `${skill.level}%` }}
                     ></div>
                   </div>
                 </div>
@@ -57,7 +37,7 @@ function Habilidades() {
 
           {/* Habilidades Blandas */}
           <div className="animate-slide-in-right">
-            <h3 className="text-3xl font-bold mb-8 text-accent-glow">Habilidades Blandas</h3>
+            <h3 className="text-3xl font-bold mb-8 text-accent-glow">{t('skills.soft')}</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {habilidadesSoft.map((skill, index) => (
                 <div
