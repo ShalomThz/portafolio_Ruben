@@ -1,0 +1,115 @@
+.reconocimientos {
+  padding: 5rem 2rem;
+  background: white;
+}
+
+.reconocimientos-timeline {
+  position: relative;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem 0;
+}
+
+.reconocimientos-timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+}
+
+.timeline-item {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 3rem;
+}
+
+.timeline-item:nth-child(even) {
+  justify-content: flex-end;
+}
+
+.timeline-marker {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 20px;
+  height: 20px;
+  background: #667eea;
+  border: 4px solid white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #667eea;
+  z-index: 1;
+}
+
+.timeline-content {
+  width: calc(50% - 40px);
+  background: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.timeline-content:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+  text-align: right;
+}
+
+.timeline-year {
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.timeline-content h3 {
+  font-size: 1.25rem;
+  color: #1f2937;
+  margin: 0.5rem 0;
+}
+
+.timeline-content h4 {
+  color: #6b7280;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.timeline-content p {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .reconocimientos {
+    padding: 3rem 1rem;
+  }
+
+  .reconocimientos-timeline::before {
+    left: 20px;
+  }
+
+  .timeline-item {
+    justify-content: flex-end !important;
+  }
+
+  .timeline-marker {
+    left: 20px;
+  }
+
+  .timeline-content {
+    width: calc(100% - 60px);
+    text-align: left !important;
+  }
+}
