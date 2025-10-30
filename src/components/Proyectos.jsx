@@ -56,8 +56,8 @@ function Proyectos() {
           {proyectos.map((proyecto, index) => (
             <div
               key={index}
-              className="group bg-dark-card rounded-xl p-8 border border-dark-border hover:border-accent-primary/50 hover:-translate-y-2 transition-all duration-300 flex flex-col animate-scale-in"
-              style={{animationDelay: `${index * 0.1}s`}}
+              className="group bg-dark-card rounded-xl p-8 border border-dark-border hover:border-accent-primary/50 hover:-translate-y-2 transition-all duration-500 flex flex-col animate-scale-in"
+              style={{animationDelay: `${index * 0.08}s`}}
             >
               <div className="inline-block self-start bg-gradient-to-r from-accent-primary to-accent-secondary text-white px-4 py-2 rounded-full text-sm font-semibold mb-4">
                 {proyecto.categoria}

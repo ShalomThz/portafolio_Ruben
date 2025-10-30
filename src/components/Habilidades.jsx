@@ -39,7 +39,7 @@ function Habilidades() {
             <h3 className="text-3xl font-bold mb-8 text-accent-glow">Habilidades Técnicas</h3>
             <div className="flex flex-col gap-6">
               {habilidadesHard.map((skill, index) => (
-                <div key={index} className="animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
+                <div key={index} className="animate-fade-in" style={{animationDelay: `${index * 0.06}s`}}>
                   <div className="flex justify-between mb-2">
                     <span className="font-semibold text-gray-200">{skill.nombre}</span>
                     <span className="text-accent-primary text-sm font-semibold">{skill.nivel}%</span>
@@ -62,7 +62,7 @@ function Habilidades() {
               {habilidadesSoft.map((skill, index) => (
                 <div
                   key={index}
-                  className="flex items-center gap-3 p-4 bg-dark-bg border border-dark-border rounded-lg hover:border-accent-primary/50 hover:scale-105 transition-all duration-300 animate-scale-in"
+                  className="flex items-center gap-3 p-4 bg-dark-bg border border-dark-border rounded-lg hover:border-accent-primary/50 hover:scale-105 transition-all duration-500 animate-scale-in"
                   style={{animationDelay: `${index * 0.05}s`}}
                 >
                   <span className="w-6 h-6 bg-gradient-to-r from-accent-primary to-accent-secondary text-white rounded-full flex items-center justify-center font-bold flex-shrink-0 text-xs">

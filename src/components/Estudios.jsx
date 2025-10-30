@@ -1,5 +1,8 @@
+import { useLanguage } from '../contexts/LanguageContext';
+
 function Estudios() {
-  const estudios = [
+  const { t } = useLanguage();
+  const estudios = t('studies.items') || [
     {
       titulo: "Ingeniería Mecánica",
       institucion: "East Los Angeles College (ELAC)",
@@ -27,7 +30,7 @@ function Estudios() {
     <section className="py-20 px-8 bg-dark-bg min-h-screen">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-4 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent animate-fade-in">
-          Formación Académica
+          {t('studies.title')}
         </h2>
         <div className="w-20 h-1 bg-gradient-to-r from-accent-primary to-accent-secondary mx-auto mb-12 animate-scale-in"></div>
 
@@ -35,21 +38,21 @@ function Estudios() {
           {estudios.map((estudio, index) => (
             <div
               key={index}
-              className="group bg-dark-card p-8 rounded-xl border border-dark-border hover:border-accent-primary/50 hover:-translate-y-2 transition-all duration-300 animate-slide-up"
-              style={{animationDelay: `${index * 0.1}s`}}
+              className="group bg-dark-card p-8 rounded-xl border border-dark-border hover:border-accent-primary/50 hover:-translate-y-2 transition-all duration-500 animate-slide-up"
+              style={{animationDelay: `${index * 0.08}s`}}
             >
               <div className="flex justify-between items-start mb-4 gap-4">
                 <h3 className="text-2xl font-bold text-accent-glow group-hover:text-accent-primary transition-colors">
-                  {estudio.titulo}
+                  {estudio.title}
                 </h3>
                 <span className="bg-accent-primary/10 text-accent-primary border border-accent-primary/30 px-3 py-1 rounded-full text-sm whitespace-nowrap">
-                  {estudio.periodo}
+                  {estudio.period}
                 </span>
               </div>
-              <h4 className="text-gray-400 text-lg mb-2">{estudio.institucion}</h4>
-              <p className="text-gray-300 leading-relaxed mb-4">{estudio.descripcion}</p>
+              <h4 className="text-gray-400 text-lg mb-2">{estudio.institution}</h4>
+              <p className="text-gray-300 leading-relaxed mb-4">{estudio.description}</p>
               <ul className="space-y-2">
-                {estudio.destacados.map((item, i) => (
+                {estudio.highlights?.map((item, i) => (
                   <li key={i} className="text-gray-300 border-l-2 border-accent-secondary pl-4 py-2 hover:border-accent-primary transition-colors">
                     {item}
                   </li>

@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "studies": "Estudios",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "achievements": "Reconocimientos"
+  },
+  "hero": {
+    "badge": "Estudiante de Ingeniería Mecánica",
+    "name": "Ruden Mendez Acuna",
+    "specialty": "Especializado en modelado 3D, SolidWorks e impresión 3D",
+    "location": "ELAC - East Los Angeles College, Los Angeles, CA",
+    "description": "Estudiante apasionado por el diseño mecánico y la fabricación digital. Experiencia en creación de modelos 3D con SolidWorks y diseño para impresión 3D. Enfocado en desarrollar soluciones innovadoras mediante tecnología de manufactura aditiva.",
+    "btnProjects": "Ver Proyectos",
+    "btnCV": "Descargar CV",
+    "stats": {
+      "models": "Modelos 3D",
+      "printed": "Proyectos Impresos",
+      "hours": "Horas de Diseño"
+    }
+  },
+  "studies": {
+    "title": "Formación Académica",
+    "items": [
+      {
+        "title": "Ingeniería Mecánica",
+        "institution": "East Los Angeles College (ELAC)",
+        "period": "En curso",
+        "description": "Formación integral en principios de ingeniería mecánica, diseño y manufactura",
+        "highlights": ["Diseño CAD/CAM", "Manufactura aditiva", "Análisis de sistemas mecánicos"]
+      },
+      {
+        "title": "Certificación SolidWorks",
+        "institution": "SolidWorks Professional",
+        "period": "2024",
+        "description": "Dominio avanzado de modelado 3D y diseño paramétrico",
+        "highlights": ["Modelado de piezas", "Ensamblajes complejos", "Dibujos técnicos"]
+      },
+      {
+        "title": "Especialización en Impresión 3D",
+        "institution": "Autoaprendizaje y Práctica",
+        "period": "2023 - Presente",
+        "description": "Diseño para manufactura aditiva y optimización de modelos",
+        "highlights": ["Diseño para FDM/SLA", "Slicing avanzado", "Post-procesamiento"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "technical": "Habilidades Técnicas",
+    "soft": "Habilidades Blandas",
+    "hardSkills": [
+      { "name": "SolidWorks - Modelado 3D", "level": 95 },
+      { "name": "Impresión 3D (FDM/SLA)", "level": 90 },
+      { "name": "Diseño Paramétrico", "level": 88 },
+      { "name": "Cálculo Diferencial e Integral", "level": 85 },
+      { "name": "Cura / Slicing", "level": 85 },
+      { "name": "Álgebra Lineal", "level": 82 },
+      { "name": "AutoCAD 2D/3D", "level": 80 },
+      { "name": "Ensamblajes Mecánicos", "level": 85 },
+      { "name": "Dibujo Técnico", "level": 90 },
+      { "name": "Manufactura Aditiva", "level": 88 },
+      { "name": "Trigonometría y Geometría", "level": 88 },
+      { "name": "Ecuaciones Diferenciales", "level": 78 }
+    ],
+    "softSkills": [
+      "Atención al detalle",
+      "Resolución de problemas",
+      "Pensamiento espacial",
+      "Creatividad e innovación",
+      "Aprendizaje autónomo",
+      "Trabajo en equipo",
+      "Gestión del tiempo",
+      "Adaptabilidad"
+    ]
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "results": "Resultados",
+    "items": [
+      {
+        "title": "Brazo Robótico Impreso en 3D",
+        "description": "Diseño y fabricación de un brazo robótico de 4 ejes utilizando impresión 3D FDM con componentes mecánicos optimizados.",
+        "technologies": ["SolidWorks", "Cura", "Arduino"],
+        "results": "Reducción de costos del 70% comparado con alternativas comerciales",
+        "category": "Robótica"
+      },
+      {
+        "title": "Sistema de Engranajes Planetarios",
+        "description": "Modelado 3D y simulación de caja de engranajes planetarios con análisis de movimiento.",
+        "technologies": ["SolidWorks", "Motion Study", "AutoCAD"],
+        "results": "Prototipo funcional impreso con precisión de 0.1mm",
+        "category": "Diseño Mecánico"
+      },
+      {
+        "title": "Soporte Personalizado de Cámara",
+        "description": "Diseño ergonómico de soporte ajustable para cámara con sistema de montaje rápido.",
+        "technologies": ["SolidWorks", "Impresión 3D", "PLA+"],
+        "results": "Producto funcional y ligero con excelente acabado",
+        "category": "Diseño de Producto"
+      },
+      {
+        "title": "Prótesis de Mano Mecánica",
+        "description": "Desarrollo de prótesis de mano funcional de bajo costo mediante impresión 3D.",
+        "technologies": ["SolidWorks", "FDM", "TPU"],
+        "results": "Dispositivo funcional con movilidad de 5 dedos",
+        "category": "Biomecánica"
+      },
+      {
+        "title": "Organizador Modular de Escritorio",
+        "description": "Sistema modular de organización con piezas intercambiables diseñadas paramétricamente.",
+        "technologies": ["SolidWorks", "Diseño Paramétrico", "Cura"],
+        "results": "15+ variaciones diferentes del mismo diseño base",
+        "category": "Diseño Funcional"
+      },
+      {
+        "title": "Mini Turbina de Viento",
+        "description": "Modelo funcional de turbina eólica con análisis aerodinámico de aspas.",
+        "technologies": ["SolidWorks", "Flow Simulation", "PETG"],
+        "results": "Generación efectiva de energía en escala de prototipo",
+        "category": "Energías Renovables"
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Reconocimientos y Logros",
+    "items": [
+      {
+        "title": "Certificación SolidWorks Associate (CSWA)",
+        "organization": "Dassault Systèmes",
+        "year": "2024",
+        "description": "Certificación oficial en diseño 3D y modelado paramétrico con SolidWorks"
+      },
+      {
+        "title": "Excelencia Académica ELAC",
+        "organization": "East Los Angeles College",
+        "year": "2024",
+        "description": "Reconocimiento por desempeño académico destacado en cursos de ingeniería"
+      },
+      {
+        "title": "Proyecto Destacado de Diseño",
+        "organization": "ELAC - Departamento de Ingeniería",
+        "year": "2024",
+        "description": "Mejor proyecto de diseño mecánico del semestre - Brazo Robótico 3D"
+      },
+      {
+        "title": "Maker Faire LA - Participante",
+        "organization": "Maker Faire Los Angeles",
+        "year": "2023",
+        "description": "Exhibición de proyectos de impresión 3D y diseño mecánico"
+      },
+      {
+        "title": "Portafolio Digital de Diseño",
+        "organization": "Desarrollo Personal",
+        "year": "2023 - Presente",
+        "description": "Colección de más de 50 diseños 3D y proyectos de manufactura aditiva"
+      },
+      {
+        "title": "Tutor de SolidWorks",
+        "organization": "ELAC - Peer Tutoring",
+        "year": "2024",
+        "description": "Asistencia a compañeros en el aprendizaje de software CAD y diseño 3D"
+      }
+    ]
+  },
+  "footer": {
+    "name": "Ruden Mendez Acuna",
+    "title": "Estudiante de Ingeniería Mecánica - ELAC",
+    "rights": "Todos los derechos reservados."
+  }
+}

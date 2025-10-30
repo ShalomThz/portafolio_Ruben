@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "Home",
+    "studies": "Education",
+    "skills": "Skills",
+    "projects": "Projects",
+    "achievements": "Achievements"
+  },
+  "hero": {
+    "badge": "Mechanical Engineering Student",
+    "name": "Ruden Mendez Acuna",
+    "specialty": "Specialized in 3D modeling, SolidWorks and 3D printing",
+    "location": "ELAC - East Los Angeles College, Los Angeles, CA",
+    "description": "Student passionate about mechanical design and digital manufacturing. Experience in creating 3D models with SolidWorks and design for 3D printing. Focused on developing innovative solutions through additive manufacturing technology.",
+    "btnProjects": "View Projects",
+    "btnCV": "Download CV",
+    "stats": {
+      "models": "3D Models",
+      "printed": "Printed Projects",
+      "hours": "Design Hours"
+    }
+  },
+  "studies": {
+    "title": "Education",
+    "items": [
+      {
+        "title": "Mechanical Engineering",
+        "institution": "East Los Angeles College (ELAC)",
+        "period": "In Progress",
+        "description": "Comprehensive training in mechanical engineering principles, design and manufacturing",
+        "highlights": ["CAD/CAM Design", "Additive manufacturing", "Mechanical systems analysis"]
+      },
+      {
+        "title": "SolidWorks Certification",
+        "institution": "SolidWorks Professional",
+        "period": "2024",
+        "description": "Advanced mastery of 3D modeling and parametric design",
+        "highlights": ["Part modeling", "Complex assemblies", "Technical drawings"]
+      },
+      {
+        "title": "3D Printing Specialization",
+        "institution": "Self-learning and Practice",
+        "period": "2023 - Present",
+        "description": "Design for additive manufacturing and model optimization",
+        "highlights": ["Design for FDM/SLA", "Advanced slicing", "Post-processing"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "technical": "Technical Skills",
+    "soft": "Soft Skills",
+    "hardSkills": [
+      { "name": "SolidWorks - 3D Modeling", "level": 95 },
+      { "name": "3D Printing (FDM/SLA)", "level": 90 },
+      { "name": "Parametric Design", "level": 88 },
+      { "name": "Differential & Integral Calculus", "level": 85 },
+      { "name": "Cura / Slicing", "level": 85 },
+      { "name": "Linear Algebra", "level": 82 },
+      { "name": "AutoCAD 2D/3D", "level": 80 },
+      { "name": "Mechanical Assemblies", "level": 85 },
+      { "name": "Technical Drawing", "level": 90 },
+      { "name": "Additive Manufacturing", "level": 88 },
+      { "name": "Trigonometry & Geometry", "level": 88 },
+      { "name": "Differential Equations", "level": 78 }
+    ],
+    "softSkills": [
+      "Attention to detail",
+      "Problem solving",
+      "Spatial thinking",
+      "Creativity and innovation",
+      "Self-learning",
+      "Teamwork",
+      "Time management",
+      "Adaptability"
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "results": "Results",
+    "items": [
+      {
+        "title": "3D Printed Robotic Arm",
+        "description": "Design and fabrication of a 4-axis robotic arm using FDM 3D printing with optimized mechanical components.",
+        "technologies": ["SolidWorks", "Cura", "Arduino"],
+        "results": "70% cost reduction compared to commercial alternatives",
+        "category": "Robotics"
+      },
+      {
+        "title": "Planetary Gear System",
+        "description": "3D modeling and simulation of planetary gearbox with motion analysis.",
+        "technologies": ["SolidWorks", "Motion Study", "AutoCAD"],
+        "results": "Functional prototype printed with 0.1mm precision",
+        "category": "Mechanical Design"
+      },
+      {
+        "title": "Custom Camera Mount",
+        "description": "Ergonomic design of adjustable camera mount with quick mounting system.",
+        "technologies": ["SolidWorks", "3D Printing", "PLA+"],
+        "results": "Functional and lightweight product with excellent finish",
+        "category": "Product Design"
+      },
+      {
+        "title": "Mechanical Hand Prosthesis",
+        "description": "Development of low-cost functional hand prosthesis through 3D printing.",
+        "technologies": ["SolidWorks", "FDM", "TPU"],
+        "results": "Functional device with 5-finger mobility",
+        "category": "Biomechanics"
+      },
+      {
+        "title": "Modular Desk Organizer",
+        "description": "Modular organization system with interchangeable parts designed parametrically.",
+        "technologies": ["SolidWorks", "Parametric Design", "Cura"],
+        "results": "15+ different variations of the same base design",
+        "category": "Functional Design"
+      },
+      {
+        "title": "Mini Wind Turbine",
+        "description": "Functional wind turbine model with aerodynamic blade analysis.",
+        "technologies": ["SolidWorks", "Flow Simulation", "PETG"],
+        "results": "Effective power generation at prototype scale",
+        "category": "Renewable Energy"
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Achievements and Awards",
+    "items": [
+      {
+        "title": "SolidWorks Associate Certification (CSWA)",
+        "organization": "Dassault Systèmes",
+        "year": "2024",
+        "description": "Official certification in 3D design and parametric modeling with SolidWorks"
+      },
+      {
+        "title": "ELAC Academic Excellence",
+        "organization": "East Los Angeles College",
+        "year": "2024",
+        "description": "Recognition for outstanding academic performance in engineering courses"
+      },
+      {
+        "title": "Outstanding Design Project",
+        "organization": "ELAC - Engineering Department",
+        "year": "2024",
+        "description": "Best mechanical design project of the semester - 3D Robotic Arm"
+      },
+      {
+        "title": "Maker Faire LA - Participant",
+        "organization": "Maker Faire Los Angeles",
+        "year": "2023",
+        "description": "Exhibition of 3D printing and mechanical design projects"
+      },
+      {
+        "title": "Digital Design Portfolio",
+        "organization": "Personal Development",
+        "year": "2023 - Present",
+        "description": "Collection of over 50 3D designs and additive manufacturing projects"
+      },
+      {
+        "title": "SolidWorks Tutor",
+        "organization": "ELAC - Peer Tutoring",
+        "year": "2024",
+        "description": "Assisting peers in learning CAD software and 3D design"
+      }
+    ]
+  },
+  "footer": {
+    "name": "Ruden Mendez Acuna",
+    "title": "Mechanical Engineering Student - ELAC",
+    "rights": "All rights reserved."
+  }
+}

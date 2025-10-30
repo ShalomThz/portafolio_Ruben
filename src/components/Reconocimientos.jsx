@@ -54,13 +54,13 @@ function Reconocimientos() {
             <div
               key={index}
               className={`relative flex ${index % 2 === 0 ? 'md:justify-start' : 'md:justify-end'} mb-12 animate-fade-in`}
-              style={{animationDelay: `${index * 0.15}s`}}
+              style={{animationDelay: `${index * 0.1}s`}}
             >
               {/* Marcador del timeline */}
               <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 w-6 h-6 bg-gradient-to-r from-accent-primary to-accent-secondary border-4 border-dark-bg rounded-full shadow-lg shadow-accent-primary/70 z-10 animate-pulse"></div>
 
               {/* Contenido */}
-              <div className={`group w-full md:w-[calc(50%-40px)] bg-dark-bg border border-dark-border p-6 rounded-xl hover:border-accent-primary/50 hover:scale-105 transition-all duration-300 ${index % 2 === 0 ? 'md:text-left' : 'md:text-right'}`}>
+              <div className={`group w-full md:w-[calc(50%-40px)] bg-dark-bg border border-dark-border p-6 rounded-xl hover:border-accent-primary/50 hover:scale-105 transition-all duration-500 ${index % 2 === 0 ? 'md:text-left' : 'md:text-right'}`}>
                 <div className="inline-block bg-gradient-to-r from-accent-primary to-accent-secondary text-white px-4 py-2 rounded-full font-bold mb-4 shadow-lg">
                   {item.año}
                 </div>
